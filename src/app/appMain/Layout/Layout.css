@@ -1,0 +1,13 @@
+
+#layoutChild{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    padding: 1rem;
+    /* min-height: 85vh; */
+    display: flex;
+    /* justify-content: end; */
+
+    background-color: #ECE4FA;
+
+}

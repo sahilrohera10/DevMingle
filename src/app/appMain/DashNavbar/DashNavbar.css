@@ -1,0 +1,22 @@
+.sidebar{
+    width: 95vw;
+    display:flex;
+    justify-content: space-around;
+    height: 12vh;
+    margin: auto;
+    color: black;
+}
+.sidecontent{
+    /* border: 1px solid white; */
+    width: 80vw;
+    height: 15vh;
+    
+    border-radius: 2rem;
+}
+.logout{
+    display: flex;
+    line-height: baseline;
+    cursor: pointer;
+    border : 1px solid white;
+    
+}
