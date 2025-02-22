@@ -1,18 +1,18 @@
 import "./DashNavbar.css";
 import Image from "next/image";
 import { BiLogOutCircle } from "react-icons/bi";
-import Link from "next/link";
+import Link  "next/link";
 
-export default function DashNavbar() {
+export default function DashNavbar {
   return (
     <div className="sidebar">
       <div className="font-bold flex justify-center items-center text-2xl">
         <Link href="/"> The Jobs Harbour</Link>
       </div>
 
-      <div className="sidecontent">
+      <div ontent">
         <div className="h-full px-3 py-1 overflow-y-auto  dark:bg-gray-900">
-          <ul className="space-y-4 font-medium flex justify-around">
+          <ul className="spay-4 font-medium flex justify-around">
             <li>
               <Link
                 href="/Profile"
@@ -42,7 +42,7 @@ export default function DashNavbar() {
             </li>
             <li>
               <Link
-                href="/appMain/analytics"
+                href="lytics"
                 className="flex items-center p-2 text-lg rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 group"
               >
                 <svg
@@ -55,7 +55,7 @@ export default function DashNavbar() {
                   <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
                 </svg>
-                <span className="ms-3 text-black"> Analytics</span>
+                <span className= text-black"> Analytics</span>
               </Link>
             </li>
 
