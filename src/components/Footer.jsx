@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 import { AvatarImage, Avatar } from "@/components/ui/avatar";
 
-export default function Footer() {
-  return (
-    <footer className="bg-[#000000] text-white p-16 w-[85%] m-auto rounded-3xl h-[45vh] mb-10 mt-10 relative">
+export default function Foot {
+  
+    <footer classN text-white p-16 w-[85%] m-auto rounded-3xl h-[45vh] mb-10 mt-10 relative">
       <div className="max-w-7xl mx-auto flex justify-between items-start">
         <div className="flex flex-col space-y-4">
           <h2 className="text-2xl font-bold">
